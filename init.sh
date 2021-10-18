@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Ubuntu 20.04 LTS
+
 if [[ $EUID -ne 0 ]]; then
    echo "UID != 0" 
    exit 1
