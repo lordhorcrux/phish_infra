@@ -174,5 +174,3 @@ else
     esac    
   }
 fi
-
-echo "Done!"
