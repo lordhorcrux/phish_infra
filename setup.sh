@@ -7,8 +7,6 @@ fi
 
 phish_infra_dir=/opt/phish_infra
 
-packages="openssl python3-certbot-nginx python3-pip unzip tmux git docker docker.io docker-compose certbot net-tools iputils-ping iproute2 curl wget nano"
-
 function usage {
     echo "Usage: $0 -m gophish -d example.org -s login admin blog" >&2
     echo "       $0 -m evilginx -d example.org -t info -s login admin blog" >&2
