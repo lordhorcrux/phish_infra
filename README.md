@@ -3,7 +3,7 @@
 ## Tested on: Ubuntu 20.04 LTS
 
 ### Install
-# `curl -sSL phish.1337.cx | bash`
+#`curl -sSL phish.1337.cx | bash`
 
 ### Use
-# `setphish -h`
+#`setphish -h`
