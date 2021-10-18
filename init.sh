@@ -16,3 +16,5 @@ do
 done
 git clone https://github.com/thirdbyte/phish_infra /opt/phish_infra
 mkdir -p /opt/phish_infra
+cp /opt/phish_infra/setup.sh /usr/local/bin/setphish
+chmod +x /usr/local/bin/setphish
