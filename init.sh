@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ubuntu 20.04 LTS
+# Tested on: Ubuntu 20.04 LTS (AWS)
 
 if [[ $EUID -ne 0 ]]; then
    echo "UID != 0" 
